@@ -2,6 +2,10 @@
 Very simple PoC for gRPC in Go.
 A server that allows notifications to be sent by the clients
 
+# Compile protobuf
+`make build`
+Note: you must have installed protoc complier. Check https://grpc.io/docs/protoc-installation/
+
 # Start the server
 `go run server.go`
 
